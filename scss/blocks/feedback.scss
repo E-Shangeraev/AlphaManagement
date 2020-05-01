@@ -1,0 +1,74 @@
+@import "../fonts.scss";
+@import "../variables.scss";
+@import "../scaffolding.scss";
+
+.feedback {
+    font-family: $font-bold;
+    font-size: 19px;
+    line-height: 23px;
+
+    width: 460px;
+}
+
+.feedback__phone {
+    width: 218px;
+    padding: 10px;
+    margin-right: 15px;
+
+    font-family: $font-regular;
+    font-size: 17px;
+    line-height: 21px;
+
+    box-sizing: border-box;
+    border: none;
+}
+
+.feedback__button {
+    width: 218px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+
+    border: none;
+    box-sizing: border-box;
+    background-color: #88001B;
+
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-out 0.2s;
+
+    &:hover {
+        background-color: rgb(153, 4, 33);
+    }
+}
+
+.feedback__button-text {
+    font-family: $font-regular;
+    font-size: 17px;
+    line-height: 21px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    .feedback {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: auto;
+    }
+
+    .feedback__phone {
+        margin: 0;
+        margin-bottom: 15px;
+        padding: 10px 20px;
+
+        font-size: 14px;
+    }
+
+    .feedback__button-text {
+        font-size: 14px;
+    }
+}

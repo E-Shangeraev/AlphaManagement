@@ -1,0 +1,214 @@
+@media (max-width: 768px) {
+    .page-header {
+        position: fixed;
+        margin-top: -1px;
+        display: block;
+    }
+
+    .page-header__wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .page-header__logo {
+        display: none;
+        position: relative;
+        margin: 0;
+    }
+
+    .page-header__logo-mobile {
+        display: flex;
+
+        justify-content: center;
+        background-color: transparent;
+    }
+
+    .page-header__logo-image {
+        width: calc(50vw / 1.2);
+        max-height: 100%;
+        padding: 50px 0;
+    }
+
+    .page-header__slogan {
+        display: none;
+    }
+
+    .page-header__nav {
+        
+        width: 100vw;
+        height: 100vh;
+
+        background-color: #fff;
+    }
+
+    .navigation__list {
+        display: block;
+        padding: 20px 0;
+
+        text-align: center;
+    }
+
+    .navigation__item {
+        position: relative;
+
+        margin: 0;
+        padding: 15px 0;
+                
+        font-size: calc(10vw / 2.2);
+        line-height: 150%;
+
+        &:not(:last-child)::after{
+            content: "";
+
+            position: absolute;
+            bottom: 0;
+
+            left: 60px;
+            right: 60px;
+
+            border-bottom: 1px dashed #051138;
+        }
+    }
+
+    .navigation__item a {
+        color: #051138;
+    }
+
+    .navigation__mobile-hidden {
+        display: none;
+    }
+
+    .page-header__nav--closed {
+        display: flex;
+        align-items: center;
+        
+        height: 10vh;
+        background-color: #051138;
+    }
+
+    .page-header__nav--opened .page-header__logo-mobile--opened {
+        display: block;
+        position: relative;
+        top: -5vh;
+        width: 100vw;
+        
+        background-color: #051138;
+    }
+
+    .page-header__logo-mobile--opened .page-header__logo-image {
+        width: calc(70vw / 1.2);
+    }
+
+    .page-header__nav--closed .navigation__list {
+        display: none;
+    }
+
+    .navigation__toggle {
+        display: flex;
+        align-items: center;
+
+        position: absolute;
+        padding: 0;
+        
+        right: 4vw;
+
+        width: 50px;
+        height: 50px; 
+
+        
+        border: none;
+        background-color: transparent; 
+
+        z-index: 20;
+        
+        &:hover,
+        &:active,
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .page-header__nav--closed .navigation__toggle span {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        background-color: #88001B;
+
+        &::before,
+        &::after {
+            display: block;
+            position: absolute;
+            content: "";
+
+            width: 100%;
+            height: 5px;
+    
+            background-color: #88001B;
+        }
+
+        &::before {
+            top: -15px; 
+            left: 0;
+        }
+
+        &::after {
+            bottom: -15px;
+            left: 0;
+        }
+    }
+
+    .navigation__toggle span {
+        &::before,
+        &::after {
+            transition-duration: 0.3s, 0.3s;
+            transition-delay: 0.3s, 0s;
+        }
+
+        &::before{
+            transition-property: top, transform;
+        }
+
+        &::after {
+            transition-property: bottom, transform;
+        }
+    }
+
+    .page-header__nav--opened .navigation__toggle span {
+        display: block;
+        position: absolute;
+
+        width: 100%;
+        height: 5px;
+
+        background: none;
+
+        &::before {
+            top: 0;
+            transform: rotate(-45deg);
+        }
+        
+        &::after {
+            bottom: 0;
+            transform: rotate(45deg);
+        }
+
+        &::before,
+        &::after {
+            display: block;
+            position: absolute;
+            content: "";
+
+            width: 100%;
+            height: 5px;
+    
+            background-color: #88001B;
+            transition-delay: 0s, 0.3s;
+        }
+    }
+
+    .page-header__nav--opened .page-header__logo-mobile {
+        background-color: #051138;
+    }
+}

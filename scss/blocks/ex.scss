@@ -1,0 +1,54 @@
+.advantages-cases__item {
+    position: relative;
+    
+    width: 330px;
+    height: 268px;
+    border: none;
+    
+    &::before,
+    &::after  {
+        content: "";
+        position: absolute;
+        
+        width:  0;
+        height: 0;
+
+        border: 5px solid transparent;
+        box-sizing: border-box;
+        z-index: 0;
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+    }
+
+    &::after {
+        bottom: 0;
+        right: 0;
+    }
+
+    &:hover::before,
+    &:hover::after {
+    width: 100%;
+    height: 100%;
+    }
+
+  &:hover::before {
+    border-top-color: #192344; 
+    border-right-color: #192344;
+    transition:
+      width 0.25s ease-out,
+      height 0.25s ease-out 0.25s; 
+  }
+
+  &:hover::after {
+    border-bottom-color: #192344; 
+    border-left-color: #192344;
+    transition:
+      border-color 0s ease-out 0.5s,
+      width 0.25s ease-out 0.5s, 
+      height 0.25s ease-out 0.75s;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+  }
+}

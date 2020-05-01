@@ -1,0 +1,132 @@
+@import "../fonts.scss";
+@import "../variables.scss";
+@import "../scaffolding.scss";
+
+.stats {
+
+    height: 185px;
+    background-color: #ffffff;
+}
+
+.stats__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 940px;
+
+    margin: 0 auto;
+}
+
+.stats__card {
+    position: relative;
+
+    width: 285px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 21px;
+    margin-top: -55px;
+
+    text-align: center;
+
+    background-color: #ffffff;
+    box-sizing: border-box;
+
+    transition: ease 0.3s;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.stats__value {
+    font-family: $font-bold;
+    font-size: 44px;
+    line-height: 54px;
+    color: #88001B;
+
+    user-select: none;   
+}
+
+.stats__field {
+    margin: 0;
+    margin-top: 12px; 
+
+    font-family: $font-bold;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000F40;
+
+    user-select: none;   
+}
+
+@media (max-width: 900px) {
+    .stats {
+        height: 150px;
+    }
+
+    .stats__wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .stats__card {
+        width: 220px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .stats {
+        position: relative;
+        padding: 0;
+        height: 100%;
+        padding: 20px 0 20px;
+    }
+
+    .stats__wrapper {
+        flex-direction: column;
+        padding: 0 20px 50px;
+
+        height: 400px;
+    }
+
+    .stats__card {
+        margin: 0;
+
+        width: 100%;
+
+        &::before {
+            content: "";
+
+            position: absolute;
+            bottom: -12%;
+            left: 0;
+            right: 0;
+
+            width: 60vw;
+            height: 1px;
+            margin: 0 auto;
+
+            background-color: rgba(0, 0, 0, 0.3);
+            box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .stats__value {
+        font-size: 32px;
+    }
+
+    .stats__field {
+        margin: 0;
+
+        font-size: 16px;
+    }
+}

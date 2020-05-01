@@ -1,0 +1,152 @@
+@import "../fonts.scss";
+@import "../variables.scss";
+@import "../scaffolding.scss";
+
+.losses {
+    background-image: url("../img/section-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.losses__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding-top: 80px;
+
+    padding-bottom: 80px;
+    margin: 0 auto;
+    width: 1131px;
+}
+
+.losses__item {
+    position: relative;
+    width: 375px;
+    z-index: 1;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 60px;
+        left: -15px;
+        width: 150px;
+        height: 150px;
+        background-image: url("../img/triangle.svg");
+        background-repeat: no-repeat;
+
+        z-index: -1;
+    } 
+}
+
+.losses__value {
+    padding-bottom: 18px;
+
+    font-family: $font-bold;
+    font-size: 95px;
+    line-height: 116px;
+}
+
+.losses__field {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 305px;
+    font-family: $font-regular;
+    font-size: 25px;
+    line-height: 28px;
+}
+
+.losses__footer {
+    padding-top: 102px;
+    background-color: #ffffff;
+}
+
+
+@media (max-width: 1200px) {
+    .losses__wrapper {
+        padding-left: 60px;
+        padding-right: 20px;
+        
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+    .losses__item {
+        margin-bottom: 30px;
+
+        width: 25vw;
+
+        &::before {
+            top: 20%;
+        }
+    }
+
+    .losses__value {
+        font-size: 45px;
+        line-height: 180%;
+        text-align: left;
+    }
+
+    .losses__field {
+        width: 25vw;
+
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .losses__wrapper {
+        padding: 20px 50px;
+    }
+
+    .losses__footer {
+        height: 0.1vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .losses__wrapper {
+        flex-direction: column;
+        align-items: center;
+
+        padding: 40px 0 20px;
+
+        width: 100%;
+    }
+
+    .losses__item {
+        margin-bottom: 30px;
+
+        width: 65vw;
+
+        text-align: center;
+
+        &::before {
+            top: 0vw;
+            left: -8vw;
+
+            transform: scale(0.7);
+        }
+    }
+
+    .losses__value {
+        display: block;
+        font-size: 40px;
+        line-height: 100%;
+        text-align: left;
+    }
+
+    .losses__field {
+        width: 65vw;
+
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .losses__footer {
+        padding: 0;
+        height: 6vh;
+    }
+}

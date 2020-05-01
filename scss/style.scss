@@ -1,0 +1,36 @@
+@import "variables.scss";
+@import "scaffolding.scss";
+@import "fonts.scss";
+@import "visually-hidden.scss";
+
+@import "blocks/header.scss";
+@import "blocks/promo.scss";
+@import "blocks/feedback.scss";
+@import "blocks/stats.scss";
+@import "blocks/about-us.scss"; 
+@import "blocks/advantages-cases.scss";
+@import "blocks/call.scss";
+@import "blocks/work-stages.scss";
+@import "blocks/losses.scss";
+@import "blocks/example.scss";
+@import "blocks/advantages.scss";
+@import "blocks/director.scss";
+@import "blocks/footer.scss";
+
+body {
+    font-family: $font-bold;
+} 
+
+* {
+    scroll-behavior: smooth;
+}
+ 
+a[name="about-us"],
+a[name="work-stages"],
+a[name="example"],
+a[name="advantages"],
+a[name="director"],
+a[name="page-footer"] {
+    position: absolute; 
+    margin-top: -104px;
+}
