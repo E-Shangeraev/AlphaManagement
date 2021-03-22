@@ -1,0 +1,586 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 202005 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.amt124.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1989                
+POS_TIME 2654                
+POS_VISITOR 11325               
+POS_DAY 16786               
+POS_DOMAIN 3557                
+POS_LOGIN 3789                
+POS_ROBOT 3944                
+POS_WORMS 4423                
+POS_EMAILSENDER 4554                
+POS_EMAILRECEIVER 4697                
+POS_SESSION 17572               
+POS_SIDER 17779               
+POS_FILETYPES 4832                
+POS_DOWNLOADS 5099                
+POS_OS 5147                
+POS_BROWSER 5275                
+POS_SCREENSIZE 6386                
+POS_UNKNOWNREFERER 6460                
+POS_UNKNOWNREFERERBROWSER 6914                
+POS_ORIGIN 7030                
+POS_SEREFERRALS 7172                
+POS_PAGEREFS 7348                
+POS_SEARCHWORDS 7698                
+POS_KEYWORDS 7873                
+POS_MISC 2317                
+POS_ERRORS 7955                
+POS_CLUSTER 3645                
+POS_SIDER_404 8101                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200601000206 106 16848 4880643451052
+FirstTime 0
+LastTime 20200531224659
+LastUpdate 20200601010003 1 0 0 0 0
+TotalVisits 193                 
+TotalUnique 129                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 137                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 50 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 29 33 670658 409 493 28382602
+1 10 10 332378 383 459 17048259
+2 3 3 99972 316 349 11843238
+3 11 90 815712 322 348 9591547
+4 8 38 664785 330 356 7360973
+5 17 134 1147439 343 370 9132869
+6 12 57 771467 363 371 9846965
+7 11 62 764516 345 362 9565435
+8 16 104 4455094 324 332 8472362
+9 40 334 3519044 335 346 7456443
+10 18 128 3758893 323 332 6114073
+11 27 178 5802399 316 327 6096203
+12 12 81 1091458 335 352 7635171
+13 4 35 531870 334 347 6491387
+14 20 76 1362416 350 394 8015753
+15 9 36 338294 375 423 10772986
+16 5 5 98889 369 447 11883886
+17 23 66 2532233 343 367 9040577
+18 17 76 2201178 318 337 10574885
+19 16 81 3219797 319 345 6818565
+20 17 109 5918214 301 309 6223828
+21 36 260 3548663 320 330 5575569
+22 50 377 3691033 311 327 6840382
+23 10 13 334168 318 333 8325765
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 421 2386 47670570
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+yandex 3877 123264210 20200531234129 0
+googlebot 190 1825761 20200531162907 0
+no_user_agent 13 301886 20200528143350 0
+python 8 133668 20200530083720 0
+bot[\s_+:,\.\;\/\\-] 5 166189 20200529190811 0
+[\s_+:,\.\;\/\\-]bot 4 133098 20200531144656 0
+netcraft 3 99273 20200505220521 0
+favicon 2 33444 20200515160927 0
+mail\.ru 2 66182 20200514160437 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 147 342025 0 0
+png 270 185039 0 0
+woff 120 8013600 0 0
+json 1 157 0 0
+php 15 2093 0 0
+html 280 8552969 0 0
+jpg 631 28582944 0 0
+js 478 565977 0 0
+xml 1 162 0 0
+Unknown 4 548 0 0
+svg 439 1425056 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 133
+linuxandroid 629
+winxp 80
+winnt 396
+Unknown 57
+winvista 10
+linux 336
+win7 745
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 56
+firefox28.0 8
+chrome67.0.3396.87 34
+firefox57.0 5
+msie6.0 10
+firefox66.0 1
+chrome52.0.2743.116 2
+chrome81.0.4044.117 96
+chrome41.0.2225.0 1
+chrome72.0.3626.121 3
+chrome81.0.4044.129 743
+firefox54.0 1
+chrome71.0.3578.98 2
+opera9.80 5
+firefox70.0 1
+firefox62.0 43
+chrome26.0.1410.65 1
+firefox59.0 2
+chrome76.0.3809.71 33
+firefox73.0.1 1
+chrome51.0.2704.84 9
+chrome74.0.3729.108 3
+chrome56.0.2925.37 3
+chrome83.0.4103.61 28
+chrome74.0.3729.169 1
+chrome71.0.3578.141 71
+chrome70.0.3538.102 34
+chrome66.0.3359.181 2
+chrome49.0.2623.112 64
+Unknown 5
+chrome41.0.2224.3 1
+chrome37.0.2049.0 3
+firefox72.0 2
+chrome68.0.3440.106 8
+safari10.0 48
+chrome78.0.3904.108 2
+chrome36.0.1985.67 1
+firefox58.0 8
+chrome41.0.2227.0 1
+chrome80.0.3987.116 32
+chrome80.0.3987.149 33
+chrome81.0.4044.122 1
+chrome49.0.2623.75 1
+firefox45.0 1
+chrome51.0.2704.103 1
+chrome79.0.3945.88 6
+chrome78.0.3904.97 641
+firefox75.0 2
+mozilla 52
+safari5.0.4 1
+chrome81.0.4044.138 248
+chrome80.0.3987.132 1
+chrome35.0.1916.47 8
+chrome41.0.2228.0 2
+chrome66.0.3359.170 2
+safari 66
+chrome75.0.3770.100 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_BackupLand/1.0;_https://go.backupland.com/;_Domain_check_for_viruses;) 20200530144834
+Go-http-client/1.1 20200531002035
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20200531220644
+Mozilla/4.0_(compatible;_Synapse) 20200510072416
+Mozilla/5.0_(compatible;_WebDataStats/1.0_;__https://webdatastats.com/policy.html) 20200522004603
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20200531002035
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 240 260
+From1 0 0
+From2 8 35
+From3 17 47
+From4 156 2044
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 2 29
+bing 1 1
+yandex 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+https://link.2gis.ru 7 7
+http://addcatalogs.manyweb.ru/review/amt124.ru.html 4 34
+https://server68.hosting.reg.ru:1500/ispmgr 2 2
+http://info.ertelecom.ru 2 2
+https://2gis.ru 1 1
+http://lookover.ru 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+parsinfo.ru 4
+amazon 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+parsinfo.ru 4
+amazon 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 30 11006940
+302 4319 1197558
+499 1 0
+206 4 401814
+404 248 90208200
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 73
+/sitemap.xml 2 http://amt124.ru/sitemap.xml
+/robots.txt 113 -
+/.git/HEAD 2 -
+/webalizer/ 1 http://amt124.ru/webalizer/
+/static/cartreminder.js 2 https://amt124.ru/static/cartreminder.js
+/registration 1 -
+/web/wp-login.php 2 http://amt124.ru/web/wp-login.php
+/db/ 1 -
+/amt124.sql.gz 2 -
+/wordpress/wp-login.php 2 http://amt124.ru/wordpress/wp-login.php
+/css/admin/layout.css 2 https://amt124.ru/css/admin/layout.css
+/new/wp-login.php 2 http://amt124.ru/new/wp-login.php
+/sql/ 1 -
+/etm/indy.css 2 https://amt124.ru/etm/indy.css
+/en/wp-login.php 2 http://amt124.ru/en/wp-login.php
+/horde/imp/test.php 4 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/mscms/ 2 https://amt124.ru/mscms/
+/logs/ 1 -
+/auth/register 1 -
+/resource/js/corelang.js 2 https://amt124.ru/resource/js/corelang.js
+/wp-includes/js/jquery/jquery.js 1 -
+/backup.zip 1 -
+/.well-known/security.txt 1 -
+/ru/admin/login.html 2 https://amt124.ru/ru/admin/login.html
+/scripts/admin/popup.js 2 https://amt124.ru/scripts/admin/popup.js
+/cms/wp-login.php 2 http://amt124.ru/cms/wp-login.php
+/adm/ 2 https://amt124.ru/adm/
+/static/common.css 2 https://amt124.ru/static/common.css
+/engine/classes/js/dle_js.js 2 https://amt124.ru/engine/classes/js/dle_js.js
+/eVQCVxm 4 http://amt124.ru/eVQCVxm
+/vendor/phpunit/phpunit/build.xml 1 -
+/published/SC/html/scripts/3rdparty/highslide/highslide-readme.txt 6 http://AMT124.RU/published/SC/html/scripts/3rdparty/highslide/highslide-readme.txt
+/blog/wp-login.php 2 http://amt124.ru/blog/wp-login.php
+/home/wp-login.php 2 http://amt124.ru/home/wp-login.php
+/misc/ajax.js 1 -
+/db.zip 1 -
+/js/header-rollup-554.js 1 -
+/phpMyAdmin/scripts/setup.php 3 -
+/cgi-bin/test-cgi 5 -
+/login 5 https://amt124.ru/login
+/manager 2 https://amt124.ru/manager
+/icms 2 https://amt124.ru/icms
+/site/wp-login.php 2 http://amt124.ru/site/wp-login.php
+/cms/lang/ru_utf8/css/sbIndex.css 2 https://amt124.ru/cms/lang/ru_utf8/css/sbIndex.css
+/amt124_ru.sql.gz 1 -
+/skins/simpla_blue/style.css 2 https://amt124.ru/skins/simpla_blue/style.css
+/.well-known/assetlinks.json 1 -
+/test/wp-login.php 2 http://amt124.ru/test/wp-login.php
+/templates/system/css/system.css 1 -
+/ShdxEEs 2 http://amt124.ru/ShdxEEs
+/modules 2 https://amt124.ru/modules
+/netcat/ 2 https://amt124.ru/netcat/
+/phpmyadmin/scripts/setup.php 3 -
+/.env 1 -
+/adm/css/errors.css 2 https://amt124.ru/adm/css/errors.css
+/wp/wp-login.php 2 http://amt124.ru/wp/wp-login.php
+/images/editor/separator.gif 1 -
+/backups/ 1 -
+/modules/mod_stats.xml 2 https://amt124.ru/modules/mod_stats.xml
+/backup/ 1 -
+/export/ 1 -
+/bc/ 2 https://amt124.ru/bc/
+/amt124.zip 1 -
+/indy/indy.css 2 https://amt124.ru/indy/indy.css
+/plugins/system/debug/debug.xml 1 -
+/bitrix/admin/ 1 -
+/cms/ 2 https://amt124.ru/cms/
+/index.php 3 -
+/dump.sql.gz 1 -
+/news/wp-login.php 2 http://amt124.ru/news/wp-login.php
+/amt124_db.sql.gz 1 -
+/edc_admin/Login/Style.css 2 https://amt124.ru/edc_admin/Login/Style.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 137
+51.83.3.220 72 628 17295796 20200505150243
+195.218.183.132 27 63 974609 20200505171346
+66.249.93.120 18 152 1172585 20200506054412
+185.12.124.78 18 18 599902 20200530144834
+66.249.93.122 16 136 1046910 20200506054412
+66.249.93.118 14 143 1128573 20200506054416
+79.104.200.28 10 89 1157502 20200518104754
+91.247.193.240 7 9 100187 20200508170601
+66.249.93.110 7 48 243439 20200505095951
+5.44.174.37 7 7 236530 20200531224659
+37.112.199.158 4 34 530119 20200513092139
+47.99.71.160 1 1 140 20200517002619
+195.211.23.211 0 1 24580 
+195.211.23.212 0 2 167308 
+62.149.7.173 1 1 33790 20200526095045
+195.211.23.207 1 2 63252 20200531220644
+95.55.116.12 1 1 33790 20200526231951
+66.102.6.134 1 10 187804 20200506044427
+64.111.109.226 1 1 140 20200531153048
+46.45.185.165 1 1 33790 20200523215014
+185.216.194.188 1 1 33091 20200516122608
+195.211.23.215 0 2 4618 
+199.244.88.132 1 1 33790 20200519005451
+208.113.197.86 1 1 136 20200511203344
+89.113.139.5 4 33 1438408 20200504181432
+46.45.185.161 1 1 33091 20200507113143
+212.119.233.78 3 33 2023954 20200501085013
+38.131.154.119 1 1 33091 20200513104439
+66.249.93.104 3 42 197004 20200505095948
+213.166.69.71 1 1 32427 20200503072702
+195.211.23.214 0 2 15442 
+89.113.143.12 6 66 4047908 20200501105403
+91.221.199.72 3 48 758620 20200521120550
+138.197.148.140 1 1 0 20200513114327
+91.121.84.201 1 1 33091 20200510072416
+46.45.185.188 1 1 33091 20200506155419
+46.45.185.164 2 2 65518 20200508015555
+122.51.100.181 1 1 33091 20200517005352
+178.176.112.96 1 1 33790 20200522014733
+130.193.51.49 3 3 99273 20200507184844
+195.208.164.212 3 33 497028 20200508092220
+208.80.194.41 1 1 33790 20200520044553
+68.183.199.166 1 1 140 20200519181539
+79.104.200.95 3 33 497028 20200506113206
+176.59.133.221 5 28 234930 20200529084427
+34.220.237.138 1 1 33790 20200529001634
+62.210.10.77 2 2 66182 20200517093511
+66.249.93.108 6 48 226161 20200505095953
+171.33.255.144 1 1 33091 20200512003730
+54.37.238.40 1 1 33091 20200505084238
+66.249.81.90 0 10 112276 
+132.148.141.147 1 1 140 20200513165912
+45.132.194.40 1 1 33790 20200531014419
+71.43.31.237 1 1 140 20200525165451
+195.154.63.222 2 2 66182 20200516004912
+5.167.50.30 4 34 530119 20200508110456
+37.18.89.51 1 1 33790 20200520202647
+136.169.169.68 1 1 33091 20200508152738
+83.167.120.97 2 2 67580 20200521203823
+80.250.86.194 6 6 200643 20200530001059
+66.102.6.130 1 13 130522 20200506044432
+46.45.185.189 1 1 33091 20200505074835
+195.211.23.208 1 4 34948 20200504104736
+89.163.242.241 5 5 164826 20200520032008
+45.61.165.248 1 1 33091 20200516083126
+2a02:c207:2016:8090::1 1 1 33091 20200508192822
+46.45.185.179 2 2 66182 20200512064901
+2a01:4f9:c010:8e57::1 1 1 33790 20200531011231
+46.45.185.182 1 1 32427 20200502103003
+178.155.4.33 1 1 33790 20200520191256
+185.126.129.99 3 35 498708 20200520095530
+132.145.141.146 1 1 33091 20200515024741
+44.229.34.156 1 1 33790 20200525195010
+41.231.54.59 1 1 140 20200520193114
+2.63.67.157 4 36 2057442 20200504175734
+130.61.14.196 1 1 33790 20200519140920
+45.77.134.191 1 1 33091 20200505001559
+46.45.185.177 1 1 32427 20200503064144
+68.183.225.93 1 1 144 20200531210604
+77.74.177.113 2 2 66881 20200525181805
+208.109.8.138 1 1 140 20200524172657
+18.236.146.139 1 1 33790 20200531002035
+46.45.185.175 1 1 33091 20200514144802
+46.45.185.168 1 1 33091 20200511090033
+2a01:4f9:2b:faff:267b:2b82:2fdf:4e2e 2 2 66881 20200519031644
+70.42.131.189 3 33 497028 20200513094800
+5.153.66.108 1 1 136 20200506064848
+91.221.199.113 1 1 33790 20200522002955
+18.222.135.88 1 1 136 20200511121807
+176.59.135.113 1 16 40371 20200507063847
+195.211.23.216 0 2 294626 
+162.241.87.45 1 1 140 20200508183544
+176.59.140.58 3 33 496991 20200505055136
+208.80.194.42 3 3 99972 20200527073810
+37.120.203.71 1 1 32427 20200501061918
+66.249.81.88 5 10 246488 20200505110109
+138.197.155.4 1 1 0 20200513114329
+188.233.116.227 1 1 33091 20200507144228
+185.86.93.46 5 7 33945 20200508005804
+185.188.218.6 1 1 33091 20200516024640
+62.210.83.78 1 1 33790 20200523143406
+66.249.81.86 1 17 238476 20200505110059
+46.45.185.167 1 1 32427 20200501142925
+54.213.148.178 1 1 33790 20200525001930
+158.255.3.138 2 2 33091 20200507143805
+140.238.42.16 1 1 33790 20200521084835
+194.147.110.73 3 33 498554 20200529063952
+2a01:4f9:2b:f9ff:184b:263a:8706:477b 1 1 32427 20200502093852
+195.211.23.209 0 2 981 
+176.59.151.106 3 33 497727 20200520102011
+93.88.74.71 3 3 98609 20200507162510
+159.203.12.19 2 2 0 20200513114328
+176.59.141.27 1 21 33790 20200525074916
+176.59.151.75 3 34 498355 20200519071715
+163.172.70.242 3 3 99273 20200518084511
+109.252.91.222 1 1 33091 20200505172000
+91.197.21.247 3 34 498080 20200525130628
+195.154.62.232 1 1 33091 20200514081329
+83.102.203.36 1 1 33091 20200511172034
+46.45.185.172 1 1 33091 20200512173641
+171.33.255.65 3 33 497028 20200516182733
+176.106.242.148 1 1 33091 20200511142535
+23.83.87.200 1 1 33091 20200516083127
+46.45.185.173 1 1 33790 20200523074755
+66.102.6.132 3 12 245089 20200506044438
+185.86.93.44 5 7 34644 20200522004602
+46.45.185.185 1 1 33091 20200516124218
+62.213.36.218 6 63 982604 20200521143255
+159.224.242.253 6 6 168950 20200529020611
+195.211.23.213 0 2 25412 
+34.219.199.9 1 1 33790 20200528002203
+109.111.178.180 1 1 33790 20200521014713
+188.163.101.88 1 1 33790 20200520100429
+2001:bc8:1824:244c::1 1 1 33024 20200504210000
+213.234.251.240 5 35 512423 20200509141444
+109.234.38.96 1 1 0 20200516170150
+176.192.188.47 1 1 33790 20200526175127
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200501 20 150 6574763 10
+20200502 3 3 97281 3
+20200503 4 4 129708 4
+20200504 126 943 23811568 12
+20200505 41 270 2405873 15
+20200506 28 231 2255922 14
+20200507 10 25 305099 7
+20200508 24 88 1293783 10
+20200509 6 36 545514 2
+20200510 3 3 99273 3
+20200511 6 6 132636 6
+20200512 4 4 132364 4
+20200513 15 75 1126560 9
+20200514 3 3 99273 3
+20200515 3 3 99273 3
+20200516 15 45 861029 11
+20200517 10 61 763720 6
+20200518 6 34 560076 3
+20200519 7 38 599865 5
+20200520 16 109 1697395 10
+20200521 10 81 1378304 5
+20200522 9 11 169804 5
+20200523 4 4 135160 4
+20200524 3 3 33930 3
+20200525 11 62 734750 9
+20200526 5 5 168950 5
+20200527 5 5 168950 5
+20200528 2 2 67580 2
+20200529 10 63 801064 5
+20200530 4 4 135160 2
+20200531 8 15 285943 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 2
+2mn-5mn 1
+15mn-30mn 4
+0s-30s 179
+30s-2mn 4
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 277 8552541 173 149
+/fonts/CenturyGothic.woff 60 4206960 3 19
+/fonts/CenturyGothic-Bold.woff 60 3806640 4 10
+/wp-login.php 12 1672 12 12
+/administrator 2 282 0 1
+/admin/cms/login/ 2 286 0 1
+/admin.php 2 274 0 0
+/admin 2 266 0 0
+/administrator/ 1 142 0 0
+/administrator/index.php 1 147 1 1
+/administrator/help/en-GB/toc.json 1 157 0 0
+/administrator/language/en-GB/install.xml 1 162 0 0
+END_SIDER
